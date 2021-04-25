@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "942990598140",
+    "firebase_url": "https://savewildlife-bd0f2.firebaseio.com",
+    "project_id": "savewildlife-bd0f2",
+    "storage_bucket": "savewildlife-bd0f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:942990598140:android:78e43af917bc7f82cb9c79",
+        "android_client_info": {
+          "package_name": "com.example.savepreciouswildlife"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "942990598140-ibp1j5rtuur6gr56vqjlfpkm4qnt8b9g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOrnDxSOlH-WIYgI5mM-RZWAmbEEcSmXE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "942990598140-ibp1j5rtuur6gr56vqjlfpkm4qnt8b9g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

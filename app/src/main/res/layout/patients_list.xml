@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+        android:id="@+id/materialCardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="417dp"
+        android:layout_height="480dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.155">
+
+        <ImageView
+            android:id="@+id/imageViewPatient"
+            android:layout_width="184dp"
+            android:layout_height="186dp"
+            android:contentDescription="@string/imageViewPatientDescription"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.145"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.429"
+            app:srcCompat="@drawable/main_blue_bird" />
+
+        <TextView
+            android:id="@+id/txtViewDonateTitle"
+            android:layout_width="289dp"
+            android:layout_height="72dp"
+            android:gravity="center"
+            android:text="@string/txtViewDonateTitle"
+            android:textColor="@color/white_fff"
+            android:textSize="@dimen/btnViewResultSize"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.111" />
+
+        <Button
+            android:id="@+id/buttonDonate"
+            android:layout_width="350dp"
+            android:layout_height="35dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/buttonDonate"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.905" />
+
+        <TextView
+            android:id="@+id/txtViewName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtViewName"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/txtViewSubTitleSize"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.785"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.328" />
+
+        <TextView
+            android:id="@+id/txtViewBreed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtViewBreed"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/txtViewSubTitleSize"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.785"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.437" />
+
+        <TextView
+            android:id="@+id/txtViewInjureType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtViewInjureType"
+            android:textColor="@color/white_fff"
+            android:textSize="@dimen/txtViewSubTitleSize"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.785"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.549" />
+
+        <TextView
+            android:id="@+id/txtViewMoneyNeed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:text="@string/txtViewMoneyNeed"
+            android:textColor="@color/white_fff"
+            android:textSize="@dimen/txtViewSubTitleSize"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.121"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewPatient"
+            app:layout_constraintVertical_bias="0.102" />
+
+        <TextView
+            android:id="@+id/txtViewMoneyDonated"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/resultBtnColor"
+            android:text="@string/txtViewMoneyDonated"
+            android:textColor="@color/white_fff"
+            android:textSize="@dimen/txtViewSubTitleSize"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.535"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewPatient"
+            app:layout_constraintVertical_bias="0.102" />
+
+        <TextView
+            android:id="@+id/txtViewMoneyLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:text="@string/txtViewMoneyLeft"
+            android:textColor="@color/white_fff"
+            android:textSize="@dimen/txtViewSubTitleSize"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.893"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewPatient"
+            app:layout_constraintVertical_bias="0.102" />
+
+        <TextView
+            android:id="@+id/txtViewSum1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textViewSum1"
+            android:textColor="@color/white_fff"
+            android:textSize="@dimen/txtViewSubTitleSize"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.227"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtViewMoneyNeed"
+            app:layout_constraintVertical_bias="0.117" />
+
+        <TextView
+            android:id="@+id/txtViewSum2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textViewSum2"
+            android:textColor="@color/white_fff"
+            android:textSize="@dimen/txtViewSubTitleSize"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.544"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtViewMoneyDonated"
+            app:layout_constraintVertical_bias="0.111" />
+
+        <TextView
+            android:id="@+id/txtViewSum3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textViewSum3"
+            android:textColor="@color/white_fff"
+            android:textSize="@dimen/txtViewSubTitleSize"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.863"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtViewMoneyLeft"
+            app:layout_constraintVertical_bias="0.117" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

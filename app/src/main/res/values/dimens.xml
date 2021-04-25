@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="txtViewTitleSize">36sp</dimen>
+    <dimen name="btnViewResultSize">25sp</dimen>
+    <dimen name="txtViewSubTitleSize">16sp</dimen>
+</resources>

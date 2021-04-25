@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/progressBarBirdImageUpload"
+        android:gravity="center">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textLayoutSpecies"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Species"
+            app:startIconContentDescription="Username"
+            app:startIconDrawable="@drawable/ic_hummingbird">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editTextSpecies"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Spinner
+            android:id="@+id/spnSelectProvince"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:background="#323131"
+            android:spinnerMode="dialog" />
+
+        <Spinner
+            android:id="@+id/spnSelectCity"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:background="#323131"
+            android:spinnerMode="dialog" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/write_something_about_the_injury_if_unsure_type_unknown"
+            android:textColor="?attr/colorOnBackground" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textLayoutInjury"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editTextInjury"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:inputType="text|textMultiLine" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            android:id="@+id/layoutBirdImageSelection">
+            <ImageView
+                android:id="@+id/imgViewReportedBird"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/placeholder_bird" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnChooseReportedBirdPhoto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?attr/textAppearanceButton"
+                android:layout_marginLeft="10dp"
+                android:text="@string/choose_a_photo"
+                android:layout_gravity="center"
+                android:backgroundTint="?attr/colorSecondary"
+                />
+
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnReport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceButton"
+            android:layout_marginTop="15dp"
+            android:text="@string/report_bird"
+            android:backgroundTint="?attr/colorSecondary"
+            />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBarBirdImageUpload"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

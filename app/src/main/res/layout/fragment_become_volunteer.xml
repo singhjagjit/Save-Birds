@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ConstraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/layoutVolunteerForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/progressBarImageUpload"
+        android:gravity="center"
+        >
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textLayoutFirstName"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/first_name"
+        app:startIconContentDescription="Username"
+        app:startIconDrawable="@drawable/ic_user">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textLayoutLastName"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/last_name"
+        android:layout_marginTop="2dp"
+        app:startIconContentDescription="Username"
+        app:startIconDrawable="@drawable/ic_user">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textLayoutEmail"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:layout_marginTop="2dp"
+        app:startIconContentDescription="Username"
+        app:startIconDrawable="@drawable/ic_baseline_email_24">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layoutRadioSelection"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/textLayoutEmail"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/do_you_have_any_previous_volunteering_experience"
+            android:textColor="?attr/colorOnBackground" />
+        <RadioGroup
+            android:id="@+id/radioGroupExperience"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radio_button_Yes_Experience"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/colorOnBackground"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/radio_button_No_Experience"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/colorOnBackground"
+                android:text="No"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="@string/if_yes_please_describe_your_experience_in_a_few_words"
+            android:textColor="?attr/colorOnBackground" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textLayoutDescription"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editTextDescription"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:inputType="text|textMultiLine" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:id="@+id/layoutImageSelection">
+        <ImageView
+            android:id="@+id/imgViewVolunteer"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/profile_volunteer" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnChoosePhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceButton"
+            android:layout_marginLeft="10dp"
+            android:text="@string/choose_a_photo"
+            android:layout_gravity="center"
+            android:backgroundTint="?attr/colorSecondary"
+            />
+
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?attr/textAppearanceButton"
+        android:layout_marginTop="5dp"
+        android:text="@string/submit_form"
+        android:backgroundTint="?attr/colorSecondary"
+        />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBarImageUpload"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!--Color-->
+
+    <color name="mint_green_dark">#68D16B</color> <!--Color primary (dark)-->
+    <color name="mint_green">#93ff96</color> <!--Color primary (light)-->
+    <color name="mint_green_dark_variant">#60BF63</color> <!--Color primary variant (dark)-->
+    <color name="mint_green_light">#c7ffc8</color> <!--Color primary variant (light)-->
+
+    <color name="aquamarine">#86e7b8</color> <!--Color secondary-->
+    <color name="aquamarine_light">#D2FDF0</color> <!--Color secondary variant-->
+
+    <color name="red_200">#cf6679</color> <!--Color error (dark)-->
+    <color name="red_600">#b00020</color> <!--Color error (light)-->
+
+    <!--Color surface (light), color on error (light), -->
+    <!--color on surface (dark), color on surface (dark)-->
+    <color name="black_000">#000000</color>
+    <color name="white_fff">#FFFFFF</color>
+
+    <color name="black_800">#000000</color>
+    Color surface (dark)
+    Color on secondary (light), color on background (light),
+    color on surface (light)
+    <color name="black_900">#000000</color>
+
+</resources>
+

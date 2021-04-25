@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--Components-->
+
+    <style name="Widget.MyTheme.NavigationView" parent="Widget.MaterialComponents.NavigationView">
+        <item name="shapeAppearanceOverlay">?attr/shapeAppearanceLargeComponent</item>
+        <item name="itemTextAppearance">?attr/textAppearanceSubtitle1</item>
+        <item name="itemTextColor">?attr/colorOnPrimary</item>
+        <item name="backgroundTint">?attr/colorPrimary</item>
+    </style>
+
+    <style name="DrawerIconStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">?attr/colorOnPrimary</item>
+    </style>
+
+    <style name="Widget.MyTheme.CardView" parent="Widget.MaterialComponents.CardView">
+        <item name="shapeAppearanceOverlay">?attr/shapeAppearanceMediumComponent</item>
+    </style>
+
+    <style name="ButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name = "shapeAppearanceOverlay">?attr/shapeAppearanceSmallComponent</item>
+        <item name = "itemTextAppearance">?attr/textAppearanceButton</item>
+        <item name = "backgroundTint">?attr/colorSecondary</item>
+    </style>
+
+
+</resources>

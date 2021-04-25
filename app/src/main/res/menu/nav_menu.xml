@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@null">
+        <menu>
+            <item android:title="Home"
+                android:id="@+id/nav_home"
+                android:icon="@drawable/ic_baseline_home_24"/>
+            <item android:title="Be Familiar With Wildlife"
+                android:id="@+id/nav_be_familiar"
+                android:icon="@drawable/ic_baseline_local_bird_24" />
+            <item android:title="Become a Volunteer"
+                android:id="@+id/nav_become_a_volunteer"
+                android:icon="@drawable/ic_baseline_assignment_24" />
+            <item android:title="Volunteers"
+                android:id="@+id/nav_volunteers"
+                android:icon="@drawable/ic_baseline_group_24" />
+            <item android:title="Make a Donation"
+                android:id="@+id/nav_make_a_donation"
+                android:icon="@drawable/ic_baseline_attach_money_24" />
+            <item android:title="Found a Bird?"
+                android:id="@+id/nav_found_a_bird"
+                android:icon="@drawable/ic_location" />
+            <item android:title="Reported Birds"
+                android:id="@+id/nav_reported_birds"
+                android:icon="@drawable/ic_baseline_local_hospital_24" />
+            <item android:title="Log Out"
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout" />
+        </menu>
+    </item>
+
+</menu>
+
+

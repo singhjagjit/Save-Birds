@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--This is the RateVolunteerFragment Layout-->
+<!--It contains a Slider (Value: 1-5) to give ratings-->
+<!--and a submit button (Jagjit)-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <com.google.android.material.slider.Slider
+        android:id="@+id/sliderRatings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:thumbColor="?attr/colorSecondary"
+        app:trackColorActive="?attr/colorSecondary"
+        app:trackColorInactive="?attr/colorSecondaryVariant"
+        app:haloColor="?attr/colorSecondaryVariant"
+        android:stepSize="1.0"
+        android:valueFrom="1.0"
+        android:valueTo="5.0" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSubmitRatings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/submit"
+            android:backgroundTint="?attr/colorSecondary"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

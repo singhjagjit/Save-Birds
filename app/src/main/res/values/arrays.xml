@@ -1,0 +1,825 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  
+    <!-- author : JunHyung Kim -->
+    <!-- This array is imported into Spinner: 'SelectProvince'-->
+    <string-array name="province_do">
+        <item>*Every Provinces*</item>
+        <item>Alberta (AB)</item>
+        <item>British Columbia (BC)</item>
+        <item>Manitoba (MB)</item>
+        <item>New Brunswick (NB)</item>
+        <item>Newfoundland and Labrador (NL)</item>
+        <item>Northwest Territories (NT)</item>
+        <item>Nova Scotia (NS)</item>
+        <item>Ontario (ON)</item>
+        <item>Prince Edward Island (PE)</item>
+        <item>Quebec (QC)</item>
+        <item>Saskatchewan (SK)</item>
+        <item>Yukon (YT)</item>
+    </string-array>
+
+    <string-array name="city_do_EveryProvinces">
+        <item>*Every Cities*</item>
+    </string-array>
+
+    <string-array name="city_do_Alberta">
+        <item>*Every Cities*</item>
+        <item>Airdrie</item>
+        <item>Grande Prairie</item>
+        <item>Red Deer</item>
+        <item>Beaumont</item>
+        <item>Hanna</item>
+        <item>St. Albert</item>
+        <item>Bonnyville</item>
+        <item>Hinton</item>
+        <item>Spruce Grove</item>
+        <item>Brazeau</item>
+        <item>Irricana</item>
+        <item>Strathcona County</item>
+        <item>Breton</item>
+        <item>Lacombe</item>
+        <item>Strathmore</item>
+        <item>Calgary</item>
+        <item>Leduc</item>
+        <item>Sylvan Lake</item>
+        <item>Camrose</item>
+        <item>Lethbridge</item>
+        <item>Swan Hills</item>
+        <item>Canmore</item>
+        <item>McLennan</item>
+        <item>Taber</item>
+        <item>Didzbury</item>
+        <item>Medicine Hat</item>
+        <item>Turner Valley</item>
+        <item>Drayton Valley</item>
+        <item>Olds</item>
+        <item>Vermillion</item>
+        <item>Edmonton</item>
+        <item>Onoway</item>
+        <item>Wood Buffalo</item>
+        <item>Ft. Saskatchewan</item>
+        <item>Provost</item>
+    </string-array>
+
+    <string-array name="city_do_British_Columbia">
+        <item>*Every Cities*</item>
+        <item>Burnaby</item>
+        <item>Lumby</item>
+        <item>City of Port Moody</item>
+        <item>Cache Creek</item>
+        <item>Maple Ridge</item>
+        <item>Prince George</item>
+        <item>Castlegar</item>
+        <item>Merritt</item>
+        <item>Prince Rupert</item>
+        <item>Chemainus</item>
+        <item>Mission</item>
+        <item>Richmond</item>
+        <item>Chilliwack</item>
+        <item>Nanaimo</item>
+        <item>Saanich</item>
+        <item>Clearwater</item>
+        <item>Nelson</item>
+        <item>Sooke</item>
+        <item>Colwood</item>
+        <item>New Westminster</item>
+        <item>Sparwood</item>
+        <item>Coquitlam</item>
+        <item>North Cowichan</item>
+        <item>Surrey</item>
+        <item>Cranbrook</item>
+        <item>North Vancouver</item>
+        <item>Terrace</item>
+        <item>Dawson Creek</item>
+        <item>North Vancouver</item>
+        <item>Tumbler</item>
+        <item>Delta</item>
+        <item>Osoyoos</item>
+        <item>Vancouver</item>
+        <item>Fernie</item>
+        <item>Parksville</item>
+        <item>Vancouver</item>
+        <item>Invermere</item>
+        <item>Peace River</item>
+        <item>Vernon</item>
+        <item>Kamloops</item>
+        <item>Penticton</item>
+        <item>Victoria</item>
+        <item>Kaslo</item>
+        <item>Port Alberni</item>
+        <item>Whistler</item>
+        <item>Langley</item>
+        <item>Port Hardy</item>
+    </string-array>
+
+    <string-array name="city_do_Manitoba">
+        <item>*Every Cities*</item>
+        <item>Birtle</item>
+        <item>Flin Flon</item>
+        <item>Swan River</item>
+        <item>Brandon</item>
+        <item>Snow Lake</item>
+        <item>The Pas</item>
+        <item>Cranberry Portage</item>
+        <item>Steinbach</item>
+        <item>Thompson</item>
+        <item>Dauphin</item>
+        <item>Stonewall</item>
+        <item>Winnipeg</item>
+    </string-array>
+
+    <string-array name="city_do_New_Brunswick">
+        <item>*Every Cities*</item>
+        <item>Cap-Pele</item>
+        <item>Miramichi</item>
+        <item>Saint John</item>
+        <item>Fredericton</item>
+        <item>Moncton</item>
+        <item>Saint Stephen</item>
+        <item>Grand Bay-Westfield</item>
+        <item>Oromocto</item>
+        <item>Shippagan</item>
+        <item>Grand Falls</item>
+        <item>Port Elgin</item>
+        <item>Sussex</item>
+        <item>Memramcook</item>
+        <item>Sackville</item>
+        <item>Tracadie-Sheila</item>
+    </string-array>
+
+    <string-array name="city_do_Newfoundland_and_Labrador">
+        <item>*Every Cities*</item>
+        <item>Argentia</item>
+        <item>Corner Brook</item>
+        <item>Paradise</item>
+        <item>Bishops Falls</item>
+        <item>Labrador City</item>
+        <item>Portaux Basques</item>
+        <item>Botwood</item>
+        <item>Mount Pearl</item>
+        <item>St. Johns</item>
+        <item>Brigus</item>
+    </string-array>
+
+    <string-array name="city_do_Northwest_Territories">
+        <item>*Every Cities*</item>
+        <item>Town of Hay River</item>
+        <item>Town of Inuvik</item>
+        <item>Yellowknife</item>
+    </string-array>
+
+    <string-array name="city_do_Nova_Scotia">
+        <item>*Every Cities*</item>
+        <item>Amherst</item>
+        <item>Hants County</item>
+        <item>Pictou</item>
+        <item>Annapolis</item>
+        <item>Inverness County</item>
+        <item>Pictou County</item>
+        <item>Argyle</item>
+        <item>Kentville</item>
+        <item>Queens</item>
+        <item>Baddeck</item>
+        <item>County of Kings</item>
+        <item>Richmond</item>
+        <item>Bridgewater</item>
+        <item>Lunenburg</item>
+        <item>Shelburne</item>
+        <item>Cape Breton</item>
+        <item>Lunenburg County</item>
+        <item>Stellarton</item>
+        <item>Chester</item>
+        <item>Mahone Bay</item>
+        <item>Truro</item>
+        <item>Cumberland County</item>
+        <item>New Glasgow</item>
+        <item>Windsor</item>
+        <item>East Hants</item>
+        <item>New Minas</item>
+        <item>Yarmouth</item>
+        <item>Halifax</item>
+        <item>Parrsboro</item>
+    </string-array>
+
+    <string-array name="city_do_Ontario">
+        <item>*Every Cities*</item>
+        <item>Ajax</item>
+        <item>Halton</item>
+        <item>Peterborough</item>
+        <item>Atikokan</item>
+        <item>Halton Hills</item>
+        <item>Pickering</item>
+        <item>Barrie</item>
+        <item>Hamilton</item>
+        <item>Port Bruce</item>
+        <item>Belleville</item>
+        <item>Hamilton-Wentworth</item>
+        <item>Port Burwell</item>
+        <item>Blandford-Blenheim</item>
+        <item>Hearst</item>
+        <item>Port Colborne</item>
+        <item>Blind River</item>
+        <item>Huntsville</item>
+        <item>Port Hope</item>
+        <item>Brampton</item>
+        <item>Ingersoll</item>
+        <item>Prince Edward</item>
+        <item>Brant</item>
+        <item>James</item>
+        <item>Quinte West</item>
+        <item>Brantford</item>
+        <item>Kanata</item>
+        <item>Renfrew</item>
+        <item>Brock</item>
+        <item>Kincardine</item>
+        <item>Richmond Hill</item>
+        <item>Brockville</item>
+        <item>King</item>
+        <item>Sarnia</item>
+        <item>Burlington</item>
+        <item>Kingston</item>
+        <item>Sault Ste. Marie</item>
+        <item>Caledon</item>
+        <item>Kirkland Lake</item>
+        <item>Scarborough</item>
+        <item>Cambridge</item>
+        <item>Kitchener</item>
+        <item>Scugog</item>
+        <item>Chatham-Kent</item>
+        <item>Larder Lake</item>
+        <item>Souix Lookout CoC Sioux Lookout</item>
+        <item>Chesterville</item>
+        <item>Leamington</item>
+        <item>Smiths Falls</item>
+        <item>Clarington</item>
+        <item>Lennox-Addington</item>
+        <item>South-West Oxford</item>
+        <item>Cobourg</item>
+        <item>Lincoln</item>
+        <item>St. Catharines</item>
+        <item>Cochrane</item>
+        <item>Lindsay</item>
+        <item>St. Thomas</item>
+        <item>Collingwood</item>
+        <item>London</item>
+        <item>Stoney Creek</item>
+        <item>Cornwall</item>
+        <item>Loyalist Township</item>
+        <item>Stratford</item>
+        <item>Cumberland</item>
+        <item>Markham</item>
+        <item>Sudbury</item>
+        <item>Deep River</item>
+        <item>Metro Toronto</item>
+        <item>Temagami</item>
+        <item>Dundas</item>
+        <item>Merrickville</item>
+        <item>Thorold</item>
+        <item>Durham</item>
+        <item>Milton</item>
+        <item>Thunder Bay</item>
+        <item>Dymond</item>
+        <item>Nepean</item>
+        <item>Tillsonburg</item>
+        <item>Ear Falls</item>
+        <item>Newmarket</item>
+        <item>Timmins</item>
+        <item>East Gwillimbury</item>
+        <item>Niagara</item>
+        <item>Toronto</item>
+        <item>East Zorra-Tavistock</item>
+        <item>Niagara Falls</item>
+        <item>Uxbridge</item>
+        <item>Elgin</item>
+        <item>Niagara-on-the-Lake</item>
+        <item>Vaughan</item>
+        <item>Elliot Lake</item>
+        <item>North Bay</item>
+        <item>Wainfleet</item>
+        <item>Flamborough</item>
+        <item>North Dorchester</item>
+        <item>Wasaga Beach</item>
+        <item>Fort Erie</item>
+        <item>North Dumfries</item>
+        <item>Waterloo</item>
+        <item>Fort Frances</item>
+        <item>North York</item>
+        <item>Waterloo</item>
+        <item>Gananoque</item>
+        <item>Norwich</item>
+        <item>Welland</item>
+        <item>Georgina</item>
+        <item>Oakville</item>
+        <item>Wellesley</item>
+        <item>Glanbrook</item>
+        <item>Orangeville</item>
+        <item>West Carleton</item>
+        <item>Gloucester</item>
+        <item>Orillia</item>
+        <item>West Lincoln</item>
+        <item>Goulbourn</item>
+        <item>Osgoode</item>
+        <item>Whitby</item>
+        <item>Gravenhurst</item>
+        <item>Oshawa</item>
+        <item>Wilmot</item>
+        <item>Grimsby</item>
+        <item>Ottawa</item>
+        <item>Windsor</item>
+        <item>Guelph</item>
+        <item>Ottawa-Carleton</item>
+        <item>Woolwich</item>
+        <item>Haldimand-Norfork</item>
+        <item>Owen Sound</item>
+        <item>York</item>
+    </string-array>
+
+    <string-array name="city_do_Prince_Edward_Island">
+        <item>*Every Cities*</item>
+        <item>Alberton</item>
+        <item>Montague</item>
+        <item>Stratford</item>
+        <item>Charlottetown</item>
+        <item>Souris</item>
+        <item>Summerside</item>
+        <item>Cornwall</item>
+    </string-array>
+
+    <string-array name="city_do_Quebec">
+        <item>*Every Cities*</item>
+        <item>Alma</item>
+        <item>Fleurimont</item>
+        <item>Longueuil</item>
+        <item>Amos</item>
+        <item>Gaspe</item>
+        <item>Marieville</item>
+        <item>Anjou</item>
+        <item>Gatineau</item>
+        <item>Mount Royal</item>
+        <item>Aylmer</item>
+        <item>Hull</item>
+        <item>Montreal</item>
+        <item>Beauport</item>
+        <item>Joliette</item>
+        <item>Montreal Region</item>
+        <item>Bromptonville</item>
+        <item>Jonquiere</item>
+        <item>Montreal-Est</item>
+        <item>Brosssard</item>
+        <item>Lachine</item>
+        <item>Quebec</item>
+        <item>Chateauguay</item>
+        <item>Lasalle</item>
+        <item>Saint-Leonard</item>
+        <item>Chicoutimi</item>
+        <item>Laurentides</item>
+        <item>Sherbrooke</item>
+        <item>Coaticook</item>
+        <item>LaSalle</item>
+        <item>Sorel</item>
+        <item>Coaticook</item>
+        <item>Laval</item>
+        <item>Thetford Mines</item>
+        <item>Dorval</item>
+        <item>Lennoxville</item>
+        <item>Victoriaville</item>
+        <item>Drummondville</item>
+        <item>Levis</item>
+    </string-array>
+
+    <string-array name="city_do_Saskatchewan">
+        <item>*Every Cities*</item>
+        <item>Avonlea</item>
+        <item>Melfort</item>
+        <item>Swift Current</item>
+        <item>Colonsay</item>
+        <item>Nipawin</item>
+        <item>Tisdale</item>
+        <item>Craik</item>
+        <item>Prince Albert</item>
+        <item>Unity</item>
+        <item>Creighton</item>
+        <item>Regina</item>
+        <item>Weyburn</item>
+        <item>Eastend</item>
+        <item>Saskatoon</item>
+        <item>Wynyard</item>
+        <item>Esterhazy</item>
+        <item>Shell Lake</item>
+        <item>Yorkton</item>
+        <item>Gravelbourg</item>
+    </string-array>
+
+    <string-array name="city_do_Yukon">
+        <item>*Every Cities*</item>
+        <item>Carcross</item>
+        <item>Whitehorse</item>
+    </string-array>
+
+
+<!-- **********************************Jagjit***********************************  -->
+
+    <string-array name="province_rb">
+        <item>Select Province</item>
+        <item>Alberta (AB)</item>
+        <item>British Columbia (BC)</item>
+        <item>Manitoba (MB)</item>
+        <item>New Brunswick (NB)</item>
+        <item>Newfoundland and Labrador (NL)</item>
+        <item>Northwest Territories (NT)</item>
+        <item>Nova Scotia (NS)</item>
+        <item>Ontario (ON)</item>
+        <item>Prince Edward Island (PE)</item>
+        <item>Quebec (QC)</item>
+        <item>Saskatchewan (SK)</item>
+        <item>Yukon (YT)</item>
+    </string-array>
+
+    <string-array name="city_rb_EveryProvinces">
+        <item>Select City</item>
+    </string-array>
+
+    <string-array name="city_rb_Alberta">
+        <item>Airdrie</item>
+        <item>Grande Prairie</item>
+        <item>Red Deer</item>
+        <item>Beaumont</item>
+        <item>Hanna</item>
+        <item>St. Albert</item>
+        <item>Bonnyville</item>
+        <item>Hinton</item>
+        <item>Spruce Grove</item>
+        <item>Brazeau</item>
+        <item>Irricana</item>
+        <item>Strathcona County</item>
+        <item>Breton</item>
+        <item>Lacombe</item>
+        <item>Strathmore</item>
+        <item>Calgary</item>
+        <item>Leduc</item>
+        <item>Sylvan Lake</item>
+        <item>Camrose</item>
+        <item>Lethbridge</item>
+        <item>Swan Hills</item>
+        <item>Canmore</item>
+        <item>McLennan</item>
+        <item>Taber</item>
+        <item>Didzbury</item>
+        <item>Medicine Hat</item>
+        <item>Turner Valley</item>
+        <item>Drayton Valley</item>
+        <item>Olds</item>
+        <item>Vermillion</item>
+        <item>Edmonton</item>
+        <item>Onoway</item>
+        <item>Wood Buffalo</item>
+        <item>Ft. Saskatchewan</item>
+        <item>Provost</item>
+    </string-array>
+
+    <string-array name="city_rb_British_Columbia">
+        <item>Burnaby</item>
+        <item>Lumby</item>
+        <item>City of Port Moody</item>
+        <item>Cache Creek</item>
+        <item>Maple Ridge</item>
+        <item>Prince George</item>
+        <item>Castlegar</item>
+        <item>Merritt</item>
+        <item>Prince Rupert</item>
+        <item>Chemainus</item>
+        <item>Mission</item>
+        <item>Richmond</item>
+        <item>Chilliwack</item>
+        <item>Nanaimo</item>
+        <item>Saanich</item>
+        <item>Clearwater</item>
+        <item>Nelson</item>
+        <item>Sooke</item>
+        <item>Colwood</item>
+        <item>New Westminster</item>
+        <item>Sparwood</item>
+        <item>Coquitlam</item>
+        <item>North Cowichan</item>
+        <item>Surrey</item>
+        <item>Cranbrook</item>
+        <item>North Vancouver</item>
+        <item>Terrace</item>
+        <item>Dawson Creek</item>
+        <item>North Vancouver</item>
+        <item>Tumbler</item>
+        <item>Delta</item>
+        <item>Osoyoos</item>
+        <item>Vancouver</item>
+        <item>Fernie</item>
+        <item>Parksville</item>
+        <item>Vancouver</item>
+        <item>Invermere</item>
+        <item>Peace River</item>
+        <item>Vernon</item>
+        <item>Kamloops</item>
+        <item>Penticton</item>
+        <item>Victoria</item>
+        <item>Kaslo</item>
+        <item>Port Alberni</item>
+        <item>Whistler</item>
+        <item>Langley</item>
+        <item>Port Hardy</item>
+    </string-array>
+
+    <string-array name="city_rb_Manitoba">
+        <item>Birtle</item>
+        <item>Flin Flon</item>
+        <item>Swan River</item>
+        <item>Brandon</item>
+        <item>Snow Lake</item>
+        <item>The Pas</item>
+        <item>Cranberry Portage</item>
+        <item>Steinbach</item>
+        <item>Thompson</item>
+        <item>Dauphin</item>
+        <item>Stonewall</item>
+        <item>Winnipeg</item>
+    </string-array>
+
+    <string-array name="city_rb_New_Brunswick">
+        <item>Cap-Pele</item>
+        <item>Miramichi</item>
+        <item>Saint John</item>
+        <item>Fredericton</item>
+        <item>Moncton</item>
+        <item>Saint Stephen</item>
+        <item>Grand Bay-Westfield</item>
+        <item>Oromocto</item>
+        <item>Shippagan</item>
+        <item>Grand Falls</item>
+        <item>Port Elgin</item>
+        <item>Sussex</item>
+        <item>Memramcook</item>
+        <item>Sackville</item>
+        <item>Tracadie-Sheila</item>
+    </string-array>
+
+    <string-array name="city_rb_Newfoundland_and_Labrador">
+        <item>Argentia</item>
+        <item>Corner Brook</item>
+        <item>Paradise</item>
+        <item>Bishops Falls</item>
+        <item>Labrador City</item>
+        <item>Portaux Basques</item>
+        <item>Botwood</item>
+        <item>Mount Pearl</item>
+        <item>St. Johns</item>
+        <item>Brigus</item>
+    </string-array>
+
+    <string-array name="city_rb_Northwest_Territories">
+        <item>Town of Hay River</item>
+        <item>Town of Inuvik</item>
+        <item>Yellowknife</item>
+    </string-array>
+
+    <string-array name="city_rb_Nova_Scotia">
+        <item>Amherst</item>
+        <item>Hants County</item>
+        <item>Pictou</item>
+        <item>Annapolis</item>
+        <item>Inverness County</item>
+        <item>Pictou County</item>
+        <item>Argyle</item>
+        <item>Kentville</item>
+        <item>Queens</item>
+        <item>Baddeck</item>
+        <item>County of Kings</item>
+        <item>Richmond</item>
+        <item>Bridgewater</item>
+        <item>Lunenburg</item>
+        <item>Shelburne</item>
+        <item>Cape Breton</item>
+        <item>Lunenburg County</item>
+        <item>Stellarton</item>
+        <item>Chester</item>
+        <item>Mahone Bay</item>
+        <item>Truro</item>
+        <item>Cumberland County</item>
+        <item>New Glasgow</item>
+        <item>Windsor</item>
+        <item>East Hants</item>
+        <item>New Minas</item>
+        <item>Yarmouth</item>
+        <item>Halifax</item>
+        <item>Parrsboro</item>
+    </string-array>
+
+    <string-array name="city_rb_Ontario">
+        <item>Ajax</item>
+        <item>Halton</item>
+        <item>Peterborough</item>
+        <item>Atikokan</item>
+        <item>Halton Hills</item>
+        <item>Pickering</item>
+        <item>Barrie</item>
+        <item>Hamilton</item>
+        <item>Port Bruce</item>
+        <item>Belleville</item>
+        <item>Hamilton-Wentworth</item>
+        <item>Port Burwell</item>
+        <item>Blandford-Blenheim</item>
+        <item>Hearst</item>
+        <item>Port Colborne</item>
+        <item>Blind River</item>
+        <item>Huntsville</item>
+        <item>Port Hope</item>
+        <item>Brampton</item>
+        <item>Ingersoll</item>
+        <item>Prince Edward</item>
+        <item>Brant</item>
+        <item>James</item>
+        <item>Quinte West</item>
+        <item>Brantford</item>
+        <item>Kanata</item>
+        <item>Renfrew</item>
+        <item>Brock</item>
+        <item>Kincardine</item>
+        <item>Richmond Hill</item>
+        <item>Brockville</item>
+        <item>King</item>
+        <item>Sarnia</item>
+        <item>Burlington</item>
+        <item>Kingston</item>
+        <item>Sault Ste. Marie</item>
+        <item>Caledon</item>
+        <item>Kirkland Lake</item>
+        <item>Scarborough</item>
+        <item>Cambridge</item>
+        <item>Kitchener</item>
+        <item>Scugog</item>
+        <item>Chatham-Kent</item>
+        <item>Larder Lake</item>
+        <item>Souix Lookout CoC Sioux Lookout</item>
+        <item>Chesterville</item>
+        <item>Leamington</item>
+        <item>Smiths Falls</item>
+        <item>Clarington</item>
+        <item>Lennox-Addington</item>
+        <item>South-West Oxford</item>
+        <item>Cobourg</item>
+        <item>Lincoln</item>
+        <item>St. Catharines</item>
+        <item>Cochrane</item>
+        <item>Lindsay</item>
+        <item>St. Thomas</item>
+        <item>Collingwood</item>
+        <item>London</item>
+        <item>Stoney Creek</item>
+        <item>Cornwall</item>
+        <item>Loyalist Township</item>
+        <item>Stratford</item>
+        <item>Cumberland</item>
+        <item>Markham</item>
+        <item>Sudbury</item>
+        <item>Deep River</item>
+        <item>Metro Toronto</item>
+        <item>Temagami</item>
+        <item>Dundas</item>
+        <item>Merrickville</item>
+        <item>Thorold</item>
+        <item>Durham</item>
+        <item>Milton</item>
+        <item>Thunder Bay</item>
+        <item>Dymond</item>
+        <item>Nepean</item>
+        <item>Tillsonburg</item>
+        <item>Ear Falls</item>
+        <item>Newmarket</item>
+        <item>Timmins</item>
+        <item>East Gwillimbury</item>
+        <item>Niagara</item>
+        <item>Toronto</item>
+        <item>East Zorra-Tavistock</item>
+        <item>Niagara Falls</item>
+        <item>Uxbridge</item>
+        <item>Elgin</item>
+        <item>Niagara-on-the-Lake</item>
+        <item>Vaughan</item>
+        <item>Elliot Lake</item>
+        <item>North Bay</item>
+        <item>Wainfleet</item>
+        <item>Flamborough</item>
+        <item>North Dorchester</item>
+        <item>Wasaga Beach</item>
+        <item>Fort Erie</item>
+        <item>North Dumfries</item>
+        <item>Waterloo</item>
+        <item>Fort Frances</item>
+        <item>North York</item>
+        <item>Waterloo</item>
+        <item>Gananoque</item>
+        <item>Norwich</item>
+        <item>Welland</item>
+        <item>Georgina</item>
+        <item>Oakville</item>
+        <item>Wellesley</item>
+        <item>Glanbrook</item>
+        <item>Orangeville</item>
+        <item>West Carleton</item>
+        <item>Gloucester</item>
+        <item>Orillia</item>
+        <item>West Lincoln</item>
+        <item>Goulbourn</item>
+        <item>Osgoode</item>
+        <item>Whitby</item>
+        <item>Gravenhurst</item>
+        <item>Oshawa</item>
+        <item>Wilmot</item>
+        <item>Grimsby</item>
+        <item>Ottawa</item>
+        <item>Windsor</item>
+        <item>Guelph</item>
+        <item>Ottawa-Carleton</item>
+        <item>Woolwich</item>
+        <item>Haldimand-Norfork</item>
+        <item>Owen Sound</item>
+        <item>York</item>
+    </string-array>
+
+    <string-array name="city_rb_Prince_Edward_Island">
+        <item>Alberton</item>
+        <item>Montague</item>
+        <item>Stratford</item>
+        <item>Charlottetown</item>
+        <item>Souris</item>
+        <item>Summerside</item>
+        <item>Cornwall</item>
+    </string-array>
+
+    <string-array name="city_rb_Quebec">
+        <item>Alma</item>
+        <item>Fleurimont</item>
+        <item>Longueuil</item>
+        <item>Amos</item>
+        <item>Gaspe</item>
+        <item>Marieville</item>
+        <item>Anjou</item>
+        <item>Gatineau</item>
+        <item>Mount Royal</item>
+        <item>Aylmer</item>
+        <item>Hull</item>
+        <item>Montreal</item>
+        <item>Beauport</item>
+        <item>Joliette</item>
+        <item>Montreal Region</item>
+        <item>Bromptonville</item>
+        <item>Jonquiere</item>
+        <item>Montreal-Est</item>
+        <item>Brosssard</item>
+        <item>Lachine</item>
+        <item>Quebec</item>
+        <item>Chateauguay</item>
+        <item>Lasalle</item>
+        <item>Saint-Leonard</item>
+        <item>Chicoutimi</item>
+        <item>Laurentides</item>
+        <item>Sherbrooke</item>
+        <item>Coaticook</item>
+        <item>LaSalle</item>
+        <item>Sorel</item>
+        <item>Coaticook</item>
+        <item>Laval</item>
+        <item>Thetford Mines</item>
+        <item>Dorval</item>
+        <item>Lennoxville</item>
+        <item>Victoriaville</item>
+        <item>Drummondville</item>
+        <item>Levis</item>
+    </string-array>
+
+    <string-array name="city_rb_Saskatchewan">
+        <item>Avonlea</item>
+        <item>Melfort</item>
+        <item>Swift Current</item>
+        <item>Colonsay</item>
+        <item>Nipawin</item>
+        <item>Tisdale</item>
+        <item>Craik</item>
+        <item>Prince Albert</item>
+        <item>Unity</item>
+        <item>Creighton</item>
+        <item>Regina</item>
+        <item>Weyburn</item>
+        <item>Eastend</item>
+        <item>Saskatoon</item>
+        <item>Wynyard</item>
+        <item>Esterhazy</item>
+        <item>Shell Lake</item>
+        <item>Yorkton</item>
+        <item>Gravelbourg</item>
+    </string-array>
+
+    <string-array name="city_rb_Yukon">
+        <item>Carcross</item>
+        <item>Whitehorse</item>
+    </string-array>
+
+</resources>
